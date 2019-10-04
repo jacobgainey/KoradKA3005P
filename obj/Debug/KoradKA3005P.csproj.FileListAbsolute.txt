@@ -1,0 +1,12 @@
+C:\Users\jgainey\Source\Repos\KoradKA3005P\obj\Debug\KoradKA3005P.csprojAssemblyReference.cache
+C:\Users\jgainey\Source\Repos\KoradKA3005P\obj\Debug\KoradKA3005P.Form1.resources
+C:\Users\jgainey\Source\Repos\KoradKA3005P\obj\Debug\KoradKA3005P.Properties.Resources.resources
+C:\Users\jgainey\Source\Repos\KoradKA3005P\obj\Debug\KoradKA3005P.csproj.GenerateResource.cache
+C:\Users\jgainey\Source\Repos\KoradKA3005P\obj\Debug\KoradKA3005P.csproj.CoreCompileInputs.cache
+C:\Users\jgainey\Source\Repos\KoradKA3005P\bin\Debug\KoradKA3005P.exe.config
+C:\Users\jgainey\Source\Repos\KoradKA3005P\bin\Debug\KoradKA3005P.exe
+C:\Users\jgainey\Source\Repos\KoradKA3005P\bin\Debug\KoradKA3005P.pdb
+C:\Users\jgainey\Source\Repos\KoradKA3005P\obj\Debug\KoradKA3005P.exe
+C:\Users\jgainey\Source\Repos\KoradKA3005P\obj\Debug\KoradKA3005P.pdb
+C:\Users\jgainey\Source\Repos\KoradKA3005P\bin\Debug\LBIndustrialCtrls.dll
+C:\Users\jgainey\Source\Repos\KoradKA3005P\obj\Debug\KoradKA3005P.csproj.CopyComplete
