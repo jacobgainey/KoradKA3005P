@@ -20,52 +20,19 @@ namespace KoradKA3005P
             InitializeComponent();
         }
 
-        private void InitCustomFontCollection()
-        {
-            //Create your private font collection object.
-            PrivateFontCollection pfc = new PrivateFontCollection();
-
-            //Select your font from the resources.
-            //My font here is "Digireu.ttf"
-            int fontLength = Properties.Resources.DSEG7Classic_Bold.Length;
-
-            // create a buffer to read in to
-            byte[] fontdata = Properties.Resources.DSEG7Classic_Bold;
-
-            // create an unsafe memory block for the font data
-            System.IntPtr data = Marshal.AllocCoTaskMem(fontLength);
-
-            // copy the bytes to the unsafe memory block
-            Marshal.Copy(fontdata, 0, data, fontLength);
-
-            // pass the font to the font collection
-            pfc.AddMemoryFont(data, fontLength);
-
-            //After that we can create font and assign font to label
-            lblLedVoltage.Font = new Font(pfc.Families[0], lblLedVoltage.Font.Size);
-            lblLedVoltage.Text = "0000";
-            lblLedVoltage.TextAlign = ContentAlignment.MiddleRight;
-
-            lblLedCurrent.Font = new Font(pfc.Families[0], lblLedCurrent.Font.Size);
-            lblLedCurrent.Text = "0000";
-            lblLedCurrent.TextAlign = ContentAlignment.MiddleRight;
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
-            InitCustomFontCollection();
-
 
         }
 
         private void LbcKnob1_Scroll(object sender, ScrollEventArgs e)
         {
+            lblLedVoltage.Value = lbcKnob1.Value;
         }
 
         private void LbcKnob1_KnobChangeValue(object sender, LBSoft.IndustrialCtrls.Knobs.LBKnobEventArgs e)
         {
-            lblLedVoltage.Text = $"{lbcKnob1.Value:00.0}";
+            lblLedVoltage.Value = lbcKnob1.Value;
         }
 
         private void BtnAdjVoltage_Click(object sender, EventArgs e)
@@ -78,6 +45,16 @@ namespace KoradKA3005P
         {
             lblLedVoltage.ForeColor = Color.DarkGray;
             lblLedCurrent.ForeColor = Color.Red;
+        }
+
+        private void BtnSetVoltage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnSelect_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

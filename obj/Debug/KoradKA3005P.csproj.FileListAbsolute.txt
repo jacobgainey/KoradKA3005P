@@ -10,3 +10,4 @@ C:\Users\jgainey\Source\Repos\KoradKA3005P\obj\Debug\KoradKA3005P.exe
 C:\Users\jgainey\Source\Repos\KoradKA3005P\obj\Debug\KoradKA3005P.pdb
 C:\Users\jgainey\Source\Repos\KoradKA3005P\bin\Debug\LBIndustrialCtrls.dll
 C:\Users\jgainey\Source\Repos\KoradKA3005P\obj\Debug\KoradKA3005P.csproj.CopyComplete
+C:\Users\jgainey\Source\Repos\KoradKA3005P\bin\Debug\LBIndustrialCtrls.pdb

@@ -59,15 +59,5 @@ namespace KoradKA3005P.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] DSEG7Classic_Bold {
-            get {
-                object obj = ResourceManager.GetObject("DSEG7Classic_Bold", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
     }
 }
